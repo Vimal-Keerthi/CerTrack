@@ -1,0 +1,15 @@
+html 
+head 
+ link(rel='stylesheet', href='/style.css')
+body CERTRACK
+br
+hr
+include ./upload.pug
+br
+hr
+p YOUR UPLOADS
+each obj in data
+ span
+  img.image(src=obj.certs)
+  
+ 
